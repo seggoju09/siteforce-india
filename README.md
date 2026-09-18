@@ -108,9 +108,18 @@ Unlike the tech stack, the legal formalities for operating this as a real
 business in India (company registration, GST, labour-law compliance, DPDP Act
 data-protection obligations, etc.) are NOT something that can be automated or
 filed by an AI assistant — they need a human founder, and in several places a
-CA/company-secretary or labour-law counsel. See the "SiteForce India — Launch
-Workflow" doc's formalities checklist for the full research and what's
-genuinely settled vs. what needs a lawyer's sign-off before you rely on it.
+CA/company-secretary or labour-law counsel. See the full checklist and market
+research in the **[SiteForce India — Launch Workflow](https://claude.ai/artifact/V2E9dNCEJ8iWnyndhaTKUf)**
+doc for what's genuinely settled vs. what needs a lawyer's sign-off before you
+rely on it.
+
+## Live deployment
+
+- Site: https://siteforce-india.vercel.app
+- Database: Supabase project `siteforce-india` (South Asia / Mumbai), under
+  the SiteForce org
+- Verified end-to-end: a test profile was published through `/labourers` and
+  confirmed live on `/companies`, then removed so the site starts clean.
 
 ## Next milestones, in order
 
@@ -120,5 +129,3 @@ genuinely settled vs. what needs a lawyer's sign-off before you rely on it.
 4. Real e-Shram/BOCW/DigiLocker-based verification (with legal sign-off first)
 5. Company registration + GST + labour-law compliance (see workflow doc)
 6. Point a registered domain at this deployment
-# siteforce-india
-SiteForce India — construction labour hiring platform for India
